@@ -1,0 +1,19 @@
+# === CLAVES DE FIRMA: NUNCA se suben ===
+# Quien tenga el .keystore puede firmar APKs como si fueran tuyos. Guárdalo aparte y en privado.
+*.keystore
+*.jks
+
+# Binarios generados (los APK se publican en "Releases", no en el repositorio)
+*.apk
+*.aab
+android/out/
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Varios
+.DS_Store
+__pycache__/
+node_modules/
