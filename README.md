@@ -77,9 +77,6 @@ un subconjunto de la [base de datos de puzles](https://database.lichess.org/#puz
 
 ## Licencia
 
-Aún sin elegir: añade un fichero `LICENSE` con la que prefieras. Sin él, el código se puede leer pero nadie tiene
-derecho a copiarlo ni modificarlo. Material de terceros y sus licencias en [`THIRD_PARTY.md`](THIRD_PARTY.md).
-
 ## Regenerar los iconos
 
 ```bash
