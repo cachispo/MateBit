@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>MateBit</title>
+  <!--HEAD-->
+  <!--STYLE-->
+</head>
+<body>
+  <main class="cabinet">
+    <h1 class="logo">♞ MATEBIT ♞</h1>
+
+    <section class="hud" aria-label="Marcador">
+      <div class="stat"><span class="label">PUNTOS</span><span id="score">000000</span></div>
+      <div class="stat"><span class="label">RACHA</span><span id="streak">0</span></div>
+      <div class="stat"><span class="label">VIDAS</span><span id="lives" class="lives">♥♥♥</span></div>
+      <div class="stat"><span class="label">NIVEL</span><span id="rating">----</span></div>
+    </section>
+    <div class="record">RECORD <span id="record">000000</span></div>
+
+    <div id="status" class="status blink">INSERTE FICHA...</div>
+
+    <div class="board-wrap">
+      <div id="board" class="board" role="grid" aria-label="Tablero de ajedrez"></div>
+    </div>
+
+    <div id="turn" class="turn">&nbsp;</div>
+
+    <div class="buttons">
+      <button id="btn-hint" type="button">PISTA</button>
+      <button id="btn-skip" type="button">SALTAR</button>
+      <button id="btn-next" type="button" class="primary" disabled>SIGUIENTE &gt;</button>
+      <button id="btn-sound" type="button">SONIDO: SI</button>
+    </div>
+
+    <p id="themes" class="themes"></p>
+    <footer>PUZLES: LICHESS.ORG (CC0)</footer>
+  </main>
+
+  <!--CHESS-->
+  <!--APP-->
+  <!--TAIL-->
+</body>
+</html>
