@@ -75,8 +75,6 @@ La API de Lichess es pública y de uso libre dentro de sus [condiciones](https:/
 que se reservan límites y la revocación del acceso. Si el juego llegara a tener mucho uso, lo prudente es empaquetar
 un subconjunto de la [base de datos de puzles](https://database.lichess.org/#puzzles) (licencia CC0) en la propia app.
 
-## Licencia
-
 ## Regenerar los iconos
 
 ```bash
